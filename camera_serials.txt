@@ -1,0 +1,12 @@
+Camera 0092 
+Serial#: 902512070099
+
+Camera 0211
+Serial#: 902512070211
+
+Camera 2084
+Serial# 109622072084
+
+launchfile Path camera- /opt/ros/melodic/share/realsense2_camera/launch 
+
+Env variable -> ./devel/setup.bash
