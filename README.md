@@ -10,3 +10,11 @@
 
 3. To list the MUSE device:
 - `muselsl list`
+
+4. Figure out the MAC Address of the MUSE using `bluetoothctl`
+
+5. Once you get the MAC address, from bluetoothctl REPL, trust the device
+- `trust <MAC_ADDRESS>`
+
+6. Exit bluetoothctl, restart MUSE and run the following command to stream from MUSE
+- `muselsl stream --address <MAC_ADDRESS>`
