@@ -18,3 +18,7 @@
 
 6. Exit bluetoothctl, restart MUSE and run the following command to stream from MUSE
 - `muselsl stream --address <MAC_ADDRESS>`
+
+
+
+### NOTE: For this error "TypeError: unsupported operand type(s) for +: 'BleakGATTCharacteristicBlueZDBus' and 'int' ", follow the changes in the commit provided here: https://github.com/alexandrebarachant/muse-lsl/pull/187/commits/c9f805782f3b91c1a954ad4087211e9a33563e4c 
